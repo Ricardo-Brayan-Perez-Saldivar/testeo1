@@ -1,0 +1,13 @@
+<div id="container">
+  <h2>
+    Angular Suma App
+  </h2>
+
+  <span>Numero 1:</span><input #num1 id="num1" type="number"> +
+  <span>Numero 2:</span><input #num2 id="num2" type="number">
+
+  <br><br><br>
+  <button (click)="printAdd(num1.value, num2.value)">Sumar!</button>
+  <br><br><br>
+  Resultado: <input #result id="result" type="text" />
+</div>
